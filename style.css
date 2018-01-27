@@ -1,0 +1,2460 @@
+/* Announcement */
+body > .content:before {
+    content: 'Check out the wiki';
+    display: block;
+    background: #fff;
+    padding: 6px 12px;
+}
+
+
+
+
+
+/* Filters */
+
+.side .md > p:nth-of-type(-n+10) a {
+    display: inline-block;
+    padding: 4px;
+    text-align: center;
+    width: 80px;
+    position: relative;
+    left: 30px;
+    transition: background-color 0.5s ease; }
+
+.side .md > p:nth-of-type(1) a { background: #f8a5a5; color: #fff; position: relative; top: 9.9px; left: 25px; }
+.side .md > p:nth-of-type(2) a { background: #F9D423; color: #fff  }
+.side .md > p:nth-of-type(3) a { background: #D3E08A; color: #fff; }
+.side .md > p:nth-of-type(4) a { background: #adc2f0; color: #fff; position: relative; top: -114px; left: 158px;}
+.side .md > p:nth-of-type(5) a { background: #babcef; color: #fff; position: relative; top: -114px; left: 158px;}
+.side .md > p:nth-of-type(6) a { background: #d8b1ea; color: #fff; position: relative; top: -114px; left: 158px;}
+.side .md > p:nth-of-type(7) a { background: #A97EC3; color: #fff; position: relative; top: -114px; left: 158px;}
+.side .md > p:nth-of-type(8) a { background: #A4DFD0; color: #fff; position: relative; top: -152px; }
+.side .md > p:nth-of-type(9) a { background: #4AA3DF; color: #fff; position: relative; top: -154px; left: 30px; width: 208px!important; }
+.side .md > p:nth-of-type(10) a { transition: all 0.5s ease;}
+
+.side .md > p:nth-of-type(10) a:after {
+    margin: auto; 
+    position: absolute;
+    bottom: -5px;
+    left: 20%;
+    background-image: url(%%discord-logo-square%%);
+    background-size: 175px 175px;
+    display: inline-block;
+    width: 175px; 
+    height: 175px;
+    content:"";
+}
+
+.side .titlebox .md>p:nth-of-type(1) a:hover { background-color: #CC333F; }
+.side .titlebox .md>p:nth-of-type(2) a:hover { background-color: #F9C123; } 
+.side .titlebox .md>p:nth-of-type(3) a:hover { background-color: #74B335; }  
+.side .titlebox .md>p:nth-of-type(4) a:hover { background-color: #5F80C7; }
+.side .titlebox .md>p:nth-of-type(5) a:hover { background-color: #4A4EB1; }      
+.side .titlebox .md>p:nth-of-type(6) a:hover { background-color: #9D44C5; }
+.side .titlebox .md>p:nth-of-type(7) a:hover { background-color: #8A4AB1; }
+.side .titlebox .md>p:nth-of-type(8) a:hover { background-color: #00A0B0; }
+.side .titlebox .md>p:nth-of-type(9) a:hover { background-color: #0E69A7; }
+.side .titlebox .md>p:nth-of-type(10) a:hover { opacity: 0.7;}
+
+/* Link Flairs */
+
+.linkflair-g1 .linkflairlabel, .flair-g1[title] { background: #f8a5a5; color: #fff; border-radius: 2px; }
+.linkflair-g2 .linkflairlabel, .flair-g2[title] { background: #F9D423; color: #fff; border-radius: 2px; }
+.linkflair-g3 .linkflairlabel, .flair-g3[title] { background: #D3E08A; color: #fff; border-radius: 2px; }
+.linkflair-g4 .linkflairlabel, .flair-g4[title] { background: #adc2f0; color: #fff; border-radius: 2px; }
+.linkflair-g5 .linkflairlabel, .flair-g5[title] { background: #babcef; color: #fff; border-radius: 2px; }
+.linkflair-g6 .linkflairlabel, .flair-g6[title] { background: #d8b1ea; color: #fff; border-radius: 2px; }
+.linkflair-te .linkflairlabel, .flair-te[title] { background: #A97EC3; color: #fff; border-radius: 2px; }
+.linkflair-pp .linkflairlabel, .flair-pp[title] { background: #A4DFD0; color: #fff; border-radius: 2px; }
+.linkflair-n6 .linkflairlabel, .flair-n6[title] { background: #f5f5f5; color: #d424ba; border-radius: 2px; }
+
+
+
+
+
+
+/* Flairs */
+
+.linkflair-red .linkflairlabel, .flair-red[title] {
+    background: #c45b52;
+    border: 1px solid #c45b52;
+    color: #fff;
+}
+
+.linkflair-teal .linkflairlabel, .flair-teal[title] {
+    background: #55c3c0;
+    border: 1px solid #55c3c0;
+    color: #fff;
+}
+
+.linkflair-lime .linkflairlabel, .flair-lime[title] {
+    background: #c6e569;
+    border: 1px solid #c6e569;
+    color: #fff;
+}
+
+.linkflair-orange .linkflairlabel, .flair-orange[title] {
+    background: #FA6900;
+    border: 1px solid #FA6900;
+    color: #fff;
+}
+
+.linkflair-teacher .linkflairlabel, .flair-teacher[title] {
+    background: #11258A;
+    border: 1px solid #11258A;
+    color: #fff;
+}
+
+.linkflair-teacher .linkflairlabel, .flair-contributors[title] {
+    background: #27AE60;
+    border: 1px solid #27AE60;
+    color: #fff;
+}
+
+@keyframes rainbow {0% {color:red;}14% {color:orange;}28% {color:yellow;}42% {color:green;}56% {color:blue;}70% {color:#4B0082;}84% {color:purple;}}
+@-moz-keyframes rainbow {0% {color:red;}14% {color:orange;}28% {color:yellow;}42% {color:green;}56% {color:blue;}70% {color:#4B0082;}84% {color:purple;}}
+@-webkit-keyframes rainbow {0% {color:red;}14% {color:orange;}28% {color:yellow;}42% {color:green;}56% {color:blue;}70% {color:#4B0082;}84% {color:purple;}}
+
+.flair-rainbow{color:red; -webkit-animation:rainbow 4s linear infinite; -moz-animation:rainbow 4s linear infinite; animation:rainbow 4s linear infinite;}
+
+
+/* Body
+------------------------------------------------------------- */
+body {
+  background: #EEE;
+}
+
+
+
+/* Links
+------------------------------------------------------------- */
+a:hover {
+  text-decoration: none!important;
+}
+
+
+
+/* Blockquotes
+------------------------------------------------------------- */
+.md blockquote {
+  padding: 1px 5px;
+  margin: 5px 0;
+  background-color: #FAFAFA;
+  border: none;
+  font-style: italic;
+  color: #808080;
+}
+
+
+/* Header container
+------------------------------------------------------------- */
+#header {
+  height:230px;
+  background-color: rgb(243, 243, 243);
+  border: 0px;
+}
+
+
+
+/* Subreddit list
+------------------------------------------------------------- */
+#sr-header-area {
+    height: 36px;
+    background: transparent;
+    border: none;
+    z-index: 998
+}
+
+#sr-header-area .sr-list {
+  margin-left: 40px;
+  z-index: 998;
+  line-height: 35px;
+}
+
+/* Hides link separator */
+#sr-header-area .sr-list .separator {
+  visibility: hidden;
+}
+
+/* Links */
+#sr-header-area a,
+#sr-header-area .srdrop.dropdown .selected {
+  font-family: Lato, sans-serif;
+  letter-spacing: 1px;
+  color: #777;
+}
+#sr-header-area .selected a {
+color: #acacac;
+}
+html:lang(nm) #sr-header-area a {
+  color: #666;
+}
+#sr-header-area a:hover {
+  color: #DDD;
+}
+
+/* "My subreddits" dropdown icon */
+
+#sr-header-area .srdrop.dropdown {
+  width: 35px;
+  padding: 0;
+  z-index: 999;
+  cursor: pointer;
+}
+#sr-header-area .srdrop.dropdown {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  margin: 0;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: url(%%spritesheet%%) no-repeat 11px 12px transparent;
+  line-height: 23px;
+  text-indent: -999em;
+  opacity: 0.8;
+}
+html:lang(nm) #sr-header-area .srdrop.dropdown .selected {
+  color: #666;
+}
+#sr-header-area .srdrop.dropdown:hover {
+  opacity: 1;
+}
+
+/* "My subreddits" dropdown list */
+#sr-header-area .drop-choices.srdrop { /* dropdown container */
+  padding: 5px;
+  margin: 1px 0 0 0;
+  background: #F5F5F5;
+  border: none;
+}
+html:lang(nm) #sr-header-area .drop-choices.srdrop {
+  margin-left: 2px;
+  background: #111;
+}
+#sr-header-area .drop-choices a.choice {
+  color: gray;
+}
+#sr-header-area .drop-choices a.choice:hover {
+  background-color: #EEE;
+  color: #222;
+}
+#sr-more-link {
+color: black;
+
+position: absolute;
+right: 0;
+top: 0;
+padding: 0 5px 0 15px;
+font-weight: bold;
+margin: 0;
+line-height:35px;
+}
+html:lang(nm) #sr-header-area .drop-choices a.choice:hover {
+  background-color: #222;
+  color: #EEE;
+}
+
+/* Main header area
+------------------------------------------------------------- */
+/* Snoo */
+#header-bottom-left .default-header {
+width: 35px;
+margin-left: 10px;
+margin-top: 140px;
+}
+
+/* Sub logo */
+.pagename {
+  display: block;
+  margin: -30px 0 0;
+  font-size: 0;
+  text-align: center;
+  text-indent: -9999px;
+}
+.pagename a {
+  width: 600px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  background: url(%%logo2%%) no-repeat;
+
+}
+
+
+
+
+/* User menu
+------------------------------------------------------------- */
+#header-bottom-right {
+  height: 35px;
+  padding: 0;
+  top: 200px;
+  right: 15px;
+  bottom: auto;
+  background: transparent;
+  font-family: Lato, sans-serif;
+  font-size: 9px;
+  letter-spacing: 1px;
+  line-height: 35px;
+  text-transform: uppercase;
+  z-index: 999;
+}
+#header-bottom-right .separator {
+  visibility: hidden;
+}
+
+/* Karma */
+#header-bottom-right .user {
+  color: #111;
+}
+#header-bottom-right .user .userkarma {
+  border: none;
+  color: #DDD;
+}
+html:lang(nm) #header-bottom-right .user .userkarma {
+  color: #888;
+}
+
+/* Links */
+#header-bottom-right a {
+  color: #AEAEAE;
+}
+html:lang(nm) #header-bottom-right a {
+  color: #666;
+}
+#header-bottom-right a:hover {
+  color: #DDD;
+}
+
+
+
+/* Content menu
+------------------------------------------------------------- */
+#header-bottom-left .tabmenu {
+  margin-left: 10px;
+  position: absolute;
+  top: 235px;
+  right: 320px;
+  left: 0;
+  text-align: left;
+  background: #FCFCFC;
+  padding: 5px;
+  padding-left: 11px;
+}
+#header-bottom-left .tabmenu li {
+  margin: 0;
+}
+#header-bottom-left .tabmenu li.selected a {
+  border: none;
+  color: #7CB6DD;
+}
+#header-bottom-left .tabmenu li a {
+  background: transparent;
+  color: #AEAEAE;
+  font-size: 10px;
+  font-family: Lato, sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#header-bottom-left .tabmenu li a:hover {
+  color: #EAEAEA;
+}
+
+
+
+/* Sub menu
+------------------------------------------------------------- */
+.menuarea {
+  padding: 10px;
+  margin: 0 0 1px 0;
+  background: #FBFBFB;
+  border: none;
+  font-family: sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #AAA;
+}
+html:lang(nm) .menuarea {
+  background: #191919;
+}
+.menuarea .dropdown {
+  margin-left: 5px;
+}
+.menuarea .dropdown {
+  text-decoration: none;
+}
+.menuarea .dropdown:hover {
+  cursor: pointer !important;
+}
+
+/* Options dropdown */
+.menuarea .drop-choices {
+  padding: 5px;
+  margin: 5px 0 0 -3px;
+  background: #F5F5F5;
+  border: none;
+}
+html:lang(nm) .menuarea .drop-choices {
+  background: #111;
+}
+.menuarea .drop-choices a.choice {
+  color: gray;
+}
+.menuarea .drop-choices a.choice:hover {
+  background-color: #EEE;
+  color: #222;
+}
+html:lang(nm) .menuarea .drop-choices a.choice:hover {
+  background-color: #222;
+  color: #EEE;
+}
+
+/* No results notification */
+.sitetable > #noresults.error {
+  padding: 10px;
+  margin: 0;
+  background: #FFF;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #999;
+}
+html:lang(nm) .sitetable > #noresults.error {
+  background: #161616;
+  color: #666;
+}
+
+
+
+/* Sidebar
+------------------------------------------------------------- */
+.side {
+  margin: 10px 10px 0;
+  background: transparent;
+  color: #777;
+}
+html:lang(nm) .side {
+  color: #AAA;
+}
+.side .spacer {
+  margin: 0 0 10px;
+}
+
+/* Search bar */
+.side #search input[type="text"] {
+  background: #FBFBFB;
+  font-size: 11px;
+  padding: 6px;
+  width: 288px;
+  border: none;
+  color: #222;
+}
+html:lang(nm) .side #search input[type="text"] {
+  background: #222;
+  color: #CCC;
+}
+.side #search input[type="text"]:active,
+.side #search input[type="text"]:focus {
+  outline: none;
+}
+
+/* Search expando */
+#search #searchexpando {
+  margin-top: 0;
+  border-radius: 0;
+  border: none;
+  background: #F5F5F5;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #888;
+}
+html:lang(nm) #search #searchexpando {
+  background: #191919;
+  color: #888;
+}
+#search #searchexpando a {
+  color: #2980B9;
+}
+html:lang(nm) #search #searchexpando a {
+  color: #EEE;
+}
+#search #searchexpando #moresearchinfo {
+  border: none;
+}
+#search #searchexpando dl {
+  color: #666;
+}
+
+/* Submit button */
+.submit.submit-text .morelink {
+  background: #4AA3DF;
+  border: none;
+}
+html:lang(nm) .submit.submit-text .morelink {
+  background: #3BC492;
+}
+.submit.submit-text .morelink:hover {
+  background: #3A9CDC;
+}
+html:lang(nm) .submit.submit-text .morelink:hover {
+  background: #37B587;
+}
+.submit.submit-text .morelink a {
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #EEE;
+}
+.submit.submit-link,
+.nub {
+  display: none;
+}
+
+/* Removes sidebar header */
+h1.redditname {
+  display: none;
+}
+
+/* Flairs... */
+.titlebox form.toggle, .leavemoderator {
+  background: #f5f5f5 none no-repeat scroll center left;
+}
+.titlebox .toggle.leavemoderator {
+  background: #f5f5f5 none no-repeat scroll center left;
+}
+.titlebox .tagline {
+  padding-top: 4px;
+  padding-left: 18px;
+  padding-bottom: 4px;
+  background: #f5f5f5;
+  margin: 0 0 0 0;
+}
+
+/* Subscribe button */
+.fancy-toggle-button {
+  width: 300px;
+  height: 25px;
+  margin: 0;
+  background: transparent;
+  border-radius: 0;
+  line-height: 23px;
+}
+.fancy-toggle-button .add,
+.fancy-toggle-button .remove {
+  height: 25px;
+  padding: 0 7px;
+  background: #FBFBFB;
+  border: none;
+  border-radius: 0;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #CCC;
+}
+html:lang(nm) .fancy-toggle-button .add,
+html:lang(nm) .fancy-toggle-button .remove {
+  background: #222; 
+  color: #666;
+}
+.fancy-toggle-button .add {
+  background: #FBFBFB;
+  color: #27AE60;
+}
+html:lang(nm) .fancy-toggle-button .add {
+  background: #222;
+  color: #EEE;
+}
+.fancy-toggle-button .add:active,
+.fancy-toggle-button .remove:active {
+  outline: none;
+}
+.fancy-toggle-button.toggle .option.active {
+  width: 286px;
+  display: inline-block; 
+}
+
+/* Subscribers */
+.subscribers {
+  height: 25px; /* 26 FF */
+  padding: 0 7px;
+  margin-top: -25px;
+  display: block;
+  position: absolute;
+  right: 10px;
+  background: #FBFBFB;
+  font-size: 11px;
+  line-height: 25px;
+}
+html:lang(nm) .subscribers {
+  background: #222;
+}
+.subscribers .word {
+  display: none;
+}
+.subscribers .number:after {
+  content: " Readers";
+}
+
+/* Removes # users online */
+.users-online {
+  display: none;
+}
+
+/* Sidebar content area */
+.side .titlebox {
+  font-family: sans-serif;
+}
+.side .titlebox .md {
+  padding: 0;
+  background: #F5F5F5;
+}
+html:lang(nm) .side .titlebox .md {
+  background: #191919;
+  color: #888;
+}
+
+/* Sidebar links */
+.side .titlebox .md a {
+  color: #2980B9;
+}
+html:lang(nm) .side .titlebox .md a {
+  color: #EEE;
+}
+.side .titlebox .md a[href="/r/space/about/traffic"] {
+  font-size: 10px;
+}
+
+/* Sidebar section headers */
+.side .titlebox .md h2 {
+  margin: 0;
+  padding: 10px 10px;
+  background: #FBFBFB;
+  font-size: 12px;
+  color: #555;
+  text-align: center;
+}
+html:lang(nm) .side .titlebox .md h2 {
+  background: #222;
+  color: #CCC;
+}
+
+/* Sidebar paragraphs */
+.side .titlebox .md > p {
+  padding: 15px 10px;
+  margin: 0;
+}
+
+.side .titlebox .md h3 {
+  font-weight: normal;
+  padding: 0 10px;
+}
+.side .titlebox .md h3 + p {
+  font-size: 11px;
+}
+
+/* First paragraph */
+.side .titlebox .md > p:first-of-type {
+  padding: 15px 15px 20px;
+  margin: 0;
+  text-align: center;
+}
+.side .titlebox .md > p:first-of-type a {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Paragraphs that follow paragraphs or lists */
+.side .titlebox .md > p + p,
+.side .titlebox .md > ul + p {
+  padding-top: 0;
+}
+
+/* Sidebar lists */
+.side .titlebox .md ul {
+  margin: 15px 25px;
+  list-style: square;
+}
+.side .titlebox .md ul li {
+  margin: 7px 0;
+}
+
+/* Sidebar tables */
+.side .titlebox .md table {
+  margin: 15px 10px 10px;
+}
+.side .titlebox .md table thead {
+  display: none;
+}
+.side .titlebox .md table th,
+.side .titlebox .md table td {
+  padding: 0 15px 5px 0;
+  border: none;
+
+} 
+
+
+
+/* Created by... */
+.side .titlebox .bottom {
+  padding: 7px 10px;
+  background: #FBFBFB;
+  border: none;
+  font-size: 0px;
+  text-align: center;
+  color: #FBFBFB;
+}
+html:lang(nm) .side .titlebox .bottom {
+  background: #222;
+  color: #222;
+}
+.side .titlebox .bottom a { /* Hides creator */
+  display: none;
+}
+.side .titlebox .bottom .age { /* Only show age */
+  float: none;
+  font-size: 10px;
+  color: #AAA;
+}
+html:lang(nm) .side .titlebox .bottom .age {
+  color: #666;
+}
+
+/* Sidebar border breaks */
+.side hr {
+  visibility: hidden;
+  display: none;
+}
+
+/* Removes create a subreddit */
+.sidebox.create {
+  display: none;
+}
+
+/* Mod tools, mods, recent links */
+.sidecontentbox {
+  margin-bottom: -10px;
+  font-family: sans-serif;
+}
+.sidecontentbox .title { /* Headers */
+  padding: 10px;
+  background: #FBFBFB;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: none;
+  color: #555;
+}
+html:lang(nm) .sidecontentbox .title {
+  background: #222;
+  color: #CCC;
+}
+.sidecontentbox#moderation_tools .title {
+  border-bottom: 1px solid #F5F5F5;
+}
+html:lang(nm) .sidecontentbox#moderation_tools .title {
+  border-color: #191919;
+}
+.sidecontentbox .title h1 {
+  font-size: 12px;
+}
+.sidecontentbox .collapse-button { /* Expando button */
+  background: #EEE;
+  border: none;
+  line-height: 7px;
+  color: #666;
+}
+html:lang(nm) .sidecontentbox .collapse-button {
+  background: #333;
+  color: #AAA;
+}
+.sidecontentbox .content { /* Body */
+  padding: 10px;
+  background: #F5F5F5;
+  border: none;
+}
+html:lang(nm) .sidecontentbox .content {
+  background: #191919;
+}
+.sidecontentbox .content a { /* Links */
+  background-color: transparent;
+  font-size: 12px;
+  color: #2980B9;
+}
+html:lang(nm) .sidecontentbox .content a {
+  color: #999;
+}
+html:lang(nm) .sidecontentbox .content a:hover {
+  color: #EEE;
+}
+.sidecontentbox a.helplink { /* message the mods link */
+  margin: 10px 10px 0 0;
+  color: #2980B9;
+}
+html:lang(nm) .sidecontentbox a.helplink {
+  color: #EEE;
+}
+.side > .spacer:nth-last-child(2) .sidecontentbox .content a.reddit-link-title { /* Recent post titles */
+  font-size: 12px;
+  color: #333;
+}
+html:lang(nm) .side > .spacer:nth-last-child(2) .sidecontentbox .content a.reddit-link-title {
+  color: #CCC;
+}
+.sidecontentbox .content a.reddit-comment-link {
+  font-size: 11px;
+  color: #AAA;
+}
+.sidecontentbox .content .gadget .midcol {
+  width: 25px;
+  margin: 0 4px 0 -3px;
+}
+.sidecontentbox .content .gadget .right a {
+  font-size: 11px;
+}
+.sidecontentbox .linkflairlabel { /* removes linkflair from recent links */
+  display: none;
+}
+
+
+/* Title changes */
+.sidecontentbox#moderation_tools .title:before {
+  content: "Moderation Tools";
+}
+.sidecontentbox a.helplink + .title:before {
+  content: "Moderators"!important;
+}
+.side > .spacer:nth-last-child(2) .sidecontentbox .title:before {
+  content: "Recently Viewed Links";
+}
+.sidecontentbox#wikiactions .title:before {
+  content: "Wiki Tools";
+}
+.sidecontentbox#moderation_tools .title h1,
+.sidecontentbox a.helplink + .title h1,
+.side > .spacer:nth-last-child(2) .sidecontentbox .title h1,
+.sidecontentbox#wikiactions .title h1 {
+  font-size: 0;
+  color: #FBFBFB;
+}
+
+
+
+/* Account activity link */
+.account-activity-box a {
+  display: block;
+  padding: 7px 10px;
+  background: #FBFBFB;
+  color: #AAA;
+}
+html:lang(nm) .account-activity-box a {
+  background: #222;
+  color: #666;
+}
+
+
+
+/* Login form
+------------------------------------- */
+.login-form-side {
+  background: #FFF;
+  border: none;
+}
+html:lang(nm) .login-form-side {
+  background: #191919;
+}
+.login-form-side input[type=text], 
+.login-form-side input[type=password] {
+  width: 134px;
+  padding: 1px 3px;
+  background: #FBFBFB;
+  border: 1px solid #F5F5F5;
+}
+html:lang(nm) .login-form-side input[type=text], 
+html:lang(nm) .login-form-side input[type=password] {
+  background: #292929!important;
+  border-color: #292929;
+  color: #CCC;
+}
+.login-form-side #remember-me a.recover-password {
+  color: #2980B9;
+}
+html:lang(nm) .login-form-side #remember-me a.recover-password {
+  color: #DDD;
+}
+
+
+
+/* Content
+------------------------------------------------------------- */
+body > .content {
+  margin: 46px 320px 0 10px;
+}
+
+/* Link body */
+.link {
+  padding: 10px 30px 10px 10px;
+  margin: 0 0 1px 0;
+  background: #FFF;
+}
+html:lang(nm) .link {
+  background: #161616;
+}
+.link.last-clicked {
+  background: #FBFBFB;
+  border: none;
+}
+html:lang(nm) .link.last-clicked {
+  background: #191919;
+}
+
+/* Link rank */
+.link .rank {
+  display: none;
+}
+
+/* Link score */
+.link .midcol {
+  margin: 0 20px 0 10px;
+}
+.link .score {
+  margin: 2px 0 3px;
+  color: #BBB;
+}
+html:lang(nm) .link .score {
+  font-weight: normal;
+}
+
+/* Upvote/downvote arrows */
+.arrow.up,
+.arrow.upmod,
+.arrow.down,
+.arrow.downmod {
+  background: url(%%spritesheet%%) no-repeat -9999px -9999px;
+}
+.arrow.up {
+  background-position: 0 -24px;
+  opacity: 0.9;
+}
+.arrow.upmod {
+  background-position: -15px -24px;
+}
+.arrow.down {
+  background-position: -30px -24px;
+  opacity: 0.9;
+}
+.arrow.downmod {
+  background-position: -45px -24px;
+}
+
+
+/* Link title */
+.link .title {
+  margin-bottom: 7px;
+  font-family: sans-serif;
+}
+.sitetable .link .title a.title {
+  color: #333;
+}
+html:lang(nm) .sitetable .link .title a.title {
+  color: #CCC;
+}
+body:not(.single-page) .sitetable .link:not(.stickied) .title a.title:visited {
+  color: #999;
+} 
+html:lang(nm) body:not(.single-page) .sitetable .link:not(.stickied) .title a.title:visited {
+  color: #777;
+} 
+.sitetable .link.stickied .title a.title {
+  color: #27AE60;
+}
+html:lang(nm) .sitetable .link.stickied .title a.title {
+  font-weight: normal;
+  color: #37B587;
+}
+
+
+/* Link domain */
+.link .domain {
+  color: #858585;
+}
+.link.last-clicked .domain {
+  color: #FBFBFB;
+}
+html:lang(nm) .link .domain {
+  color: #161616;
+}
+html:lang(nm) .link.last-clicked .domain {
+  color: #191919;
+}
+.link .domain a {
+  color: #858585;
+  vertical-align: text-bottom;
+}
+html:lang(nm) .link .domain a {
+  color: #444;
+}
+
+/* Link tagline/info */
+.link .tagline {
+  color: #666; /*#888*/
+}
+.tagline .stickied-tagline { /* stickied notification */
+  color: #27AE60;
+}
+html:lang(nm) .tagline .stickied-tagline {
+  color: #37B587;
+}
+
+/* Link tagline username */
+.link .tagline a {
+  color: #2980B9;
+}
+html:lang(nm) .link .tagline a {
+  color: #AAA;
+}
+.link .tagline a.moderator { /* moderator */
+  color: #27AE60;
+}
+html:lang(nm) .link .tagline a.moderator { /* moderator */
+  color: #3BC492;
+}
+
+/* Link tagline moderator identifier */
+.link .tagline .userattrs {
+  color: #FFF;
+}
+.link.last-clicked .tagline .userattrs {
+  color: #FBFBFB;
+}
+html:lang(nm) .link .tagline .userattrs {
+  color: #161616;
+}
+html:lang(nm) .link.last-clicked .tagline .userattrs {
+  color: #191919;
+}
+.link .tagline .userattrs > a {
+  padding: 0 3px;
+}
+.link .tagline .userattrs > a:first-of-type {
+  margin-left: -5px;
+}
+.link .tagline .userattrs .moderator {
+  background: #3BC492;
+  color: #FFF;
+}
+html:lang(nm) .link .tagline .userattrs .moderator {
+  background: #0E8F60;
+  color: #CCC;
+}
+
+/* NSFW stamp */
+.nsfw-stamp acronym {
+  padding: 0;
+  background: transparent;
+  border: none!important;
+  border-radius: 0!important;
+  font-size: 9px;
+  color: #E74C3C;
+}
+html:lang(nm) .nsfw-stamp acronym {
+  color: #C0392B;
+}
+
+/* Link options/menu */
+.link .flat-list.buttons li a {
+  padding: 0;
+  font-weight: normal;
+  color: #666;
+}
+.link .flat-list.buttons,
+body:not(.single-page) .link .flat-list.buttons li.first a {
+  color: #2980B9;
+}
+html:lang(nm) body:not(.single-page) .link .flat-list.buttons li.first a {
+  color: #AAA;
+}
+.link .flat-list.buttons li a:hover {
+  color: #2980B9;
+}
+html:lang(nm) .link .flat-list.buttons li a:hover {
+  color: #AAA;
+}
+.flat-list.buttons li .toggle .error,
+.flat-list.buttons li.toggle .error {
+  color: #E74C3C;
+} 
+.flat-list.buttons li .toggle .error a,
+.flat-list.buttons li.toggle .error a {
+  color: #333;
+}
+html:lang(nm) .flat-list.buttons li .toggle .error a,
+html:lang(nm) .flat-list.buttons li.toggle .error a {
+  color: #CCC;
+}
+.flat-list.buttons li form.toggle {
+  color: #999;
+}
+html:lang(nm) .flat-list.buttons li form.toggle {
+  color: #AAA;
+}
+
+/* Link expando button */
+.link .entry .expando-button {
+  width: 20px;
+  height: 20px;
+  margin: 4px 8px 0 0;
+  background: url(%%spritesheet%%) no-repeat -9999px -9999px!important;
+}
+.link .expando-button:hover {
+  cursor: pointer;
+}
+
+.link .entry .expando-button.selftext.collapsed {
+  background-position: 0 -38px!important;
+}
+.link .entry .expando-button.selftext.collapsed:hover {
+  background-position: -20px -38px!important;
+}
+html:lang(nm) .link .entry .expando-button.selftext.collapsed {
+  background-position: -40px -38px!important;
+}
+html:lang(nm) .link .entry .expando-button.selftext.collapsed:hover {
+  background-position: -60px -38px!important;
+}
+
+.link .entry .expando-button.selftext.expanded {
+  background-position: 0 -58px!important;
+}
+.link .entry .expando-button.selftext.expanded:hover {
+  background-position: -20px -58px!important;
+}
+html:lang(nm) .link .entry .expando-button.selftext.expanded {
+  background-position: -40px -58px!important;
+}
+html:lang(nm) .link .entry .expando-button.selftext.expanded:hover {
+  background-position: -60px -58px!important;
+}
+
+.link .entry .expando-button.video.collapsed,
+.link .entry .expando-button.video.expanded {
+  background-position: 0 -78px!important;
+}
+.link .entry .expando-button.video.collapsed:hover,
+.link .entry .expando-button.video.expanded:hover {
+  background-position: -20px -78px!important;
+}
+html:lang(nm) .link .entry .expando-button.video.collapsed,
+html:lang(nm) .link .entry .expando-button.video.expanded {
+  background-position: -40px -78px!important;
+}
+html:lang(nm) .link .entry .expando-button.video.collapsed:hover,
+html:lang(nm) .link .entry .expando-button.video.expanded:hover {
+  background-position: -60px -78px!important;
+}
+
+.res .link .entry .expando-button.image.collapsedExpando,
+.res .link .entry .expando-button.image.expanded {
+  background-position: 0 -98px!important;
+}
+.res .link .entry .expando-button.image.collapsedExpando:hover,
+.res .link .entry .expando-button.image.expanded:hover {
+  background-position: -20px -98px!important;
+}
+html:lang(nm) .res .link .entry .expando-button.image.collapsedExpando,
+html:lang(nm) .res .link .entry .expando-button.image.expanded {
+  background-position: -40px -98px!important;
+}
+html:lang(nm) .res .link .entry .expando-button.image.collapsedExpando:hover,
+html:lang(nm) .res .link .entry .expando-button.image.expanded:hover {
+  background-position: -60px -98px!important;
+}
+
+/* Loading... */
+.link .expando .error {
+  font-family: sans-serif;
+  color: #999;
+}
+html:lang(nm) .link .expando .error {
+  color: #CCC;
+}
+
+/* Link body */
+.link .usertext .md {
+  padding: 0;
+  background: transparent;
+  border: none;
+  font-family: sans-serif;
+  line-height: 18px;
+  color: #333;
+}
+html:lang(nm) .link .usertext .md {
+  color: #BBB;
+}
+.link .usertext .md a {
+  color: #2980B9;
+}
+html:lang(nm) .link .usertext .md a {
+  color: #EEE;
+}
+
+/* Sidebar link info */
+.linkinfo {
+  padding: 0;
+  margin-top: 5px;
+  background: #F5F5F5;
+  border: none;
+  border-radius: 0;
+  font-family: sans-serif;
+}
+html:lang(nm) .linkinfo {
+  background: #191919;
+}
+.linkinfo .date { /* post was submitted on ... */
+  padding: 10px 0;
+  margin: 0 0 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+}
+html:lang(nm) .linkinfo .date {
+  color: #CCC;
+}
+.linkinfo .date span {
+  font-size: 0;
+  color: #F5F5F5;
+}
+html:lang(nm) .linkinfo .date span {
+  color: #191919;
+}
+.linkinfo .date span:after {
+  content: "This post was submitted on ";
+  display: inline;
+  font-size: 12px;
+  font-weight: normal;
+  color: #666;
+}
+html:lang(nm) .linkinfo .date span:after {
+  color: #CCC;
+}
+.linkinfo .score { /* post score (% like it) */
+  /*width: 99px;*/
+  margin: 0 0 0 10px;
+  padding: 0 0 5px;
+  display: inline-block;
+  border: none;
+  font-size: 11px;
+  text-align: center;
+  color: #666;
+}
+html:lang(nm) .linkinfo .score {
+  color: #999;
+}
+.linkinfo .score .number {
+  padding: 5px;
+  display: inline-block;
+  vertical-align: -2px;
+  background: #FAFAFA;
+  font-size: 18px;
+  font-weight: 400;
+  color: orangered;
+}
+html:lang(nm) .linkinfo .score .number {
+  background: #161616;
+  color: #999;
+}
+.linkinfo .score .word { 
+  display: none;
+}
+.linkinfo .upvotes,
+.linkinfo .downvotes { /* post upvotes/downvotes */
+  width: 100px;
+  padding: 9px 0;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+}
+.linkinfo .upvotes {
+  /*color: #EEE;*/
+}
+html:lang(nm) .linkinfo .upvotes {
+  color: #EEE;
+}
+.linkinfo .downvotes { 
+  margin-left: -3px;
+  /*color: #999;*/
+} 
+html:lang(nm) .linkinfo .downvotes {
+  color: #999;
+}
+.linkinfo .upvotes .number,
+.linkinfo .downvotes .number {
+  display: block;
+  position: relative;
+  top: 1px;
+  font-size: 18px;
+  font-weight: 100;
+}
+.linkinfo .upvotes .word,
+.linkinfo .downvotes .word {
+  font-size: 11px;
+}
+.linkinfo .shortlink { /* shortlink */
+  margin-top: 0;
+  font-size: 0;
+  text-align: center;
+  visibility: hidden;
+}
+.linkinfo .shortlink input {
+  width: 296px;
+  height: 30px;
+  margin: 5px 0 -5px 0;
+  background: #FBFBFB;
+  border: none;
+  font-size: 11px;
+  /*text-align: center;*/
+  text-indent: 10px;
+  color: #AAA;
+  visibility: visible;
+}
+html:lang(nm) .linkinfo .shortlink input {
+  background: #161616;
+  color: #888;
+}
+
+/* Pagination */
+.nextprev {
+  padding: 10px;
+  margin: 0;
+  display: block;
+  background: #FBFBFB;
+  font-family: sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #AAA;
+}
+html:lang(nm) .nextprev {
+  background: #191919;
+  color: #999;
+}
+.nextprev a {
+  padding: 1px 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  font-weight: bold;
+  color: gray;
+}
+html:lang(nm) .nextprev a {
+  color: #EEE;
+}
+.nextprev > a:first-of-type {
+  margin-left: 5px;
+}
+.nextprev a:hover {
+  background: transparent;
+  border: none;
+  color: #333;
+}
+html:lang(nm) .nextprev a:hover {
+  color: #FFF;
+}
+.nextprev .separator {
+  margin: 0;
+  visibility: hidden;
+}
+
+
+
+/* Comments
+------------------------------------------------------------- */
+.commentarea {
+  padding: 5px 15px 10px 5px;
+  margin-top: 0;
+  background: #FFF;
+}
+html:lang(nm) .commentarea {
+  background: #191919;
+}
+
+/* # comments title */
+.commentarea .panestack-title {
+  padding-bottom: 5px;
+  margin: 10px 0px 0px 10px;
+  border-bottom: none;
+}
+.res .commentarea .panestack-title {
+  padding-bottom: 10px;
+}
+.commentarea .panestack-title .title {
+  font-family: sans-serif; 
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #333;
+}
+html:lang(nm) .commentarea .panestack-title .title {
+  color: #CCC;
+}
+
+/* Comment menu */
+.commentarea .menuarea {
+  margin-top: 10px;
+  background: transparent;
+  font-family: sans-serif;
+  font-size: 12px;
+  text-transform: none;
+}
+.commentarea .panestack-title + .menuarea {
+  margin-top: 0;
+}
+.commentarea .menuarea .toggle.set_contest_mode-button a.togglebutton,
+.commentarea .menuarea .toggle.set_subreddit_sticky-button a.togglebutton,
+.commentarea .menuarea span.help-hoverable {
+  color: #666;
+  font-size: 11px;
+  font-weight: normal;
+}
+.commentarea .menuarea .toggle.set_contest_mode-button a.togglebutton:hover,
+.commentarea .menuarea .toggle.set_subreddit_sticky-button a.togglebutton:hover,
+.commentarea .menuarea span.help-hoverable:hover {
+  color: #2980B9;
+}
+html:lang(nm) .commentarea .menuarea .toggle.set_contest_mode-button a.togglebutton:hover,
+html:lang(nm) .commentarea .menuarea .toggle.set_subreddit_sticky-button a.togglebutton:hover,
+html:lang(nm) .commentarea .menuarea span.help-hoverable:hover {
+  color: #AAA;
+}
+.commentarea .menuarea .toggle.set_contest_mode-button .error {
+  font-size: 11px;
+  color: #E74C3C;
+}
+.commentarea .menuarea .toggle.set_subreddit_sticky-button .error {
+  font-size: 11px;
+  color: #37B587;
+}
+.commentarea .menuarea .toggle.set_contest_mode-button .option.error a,
+.commentarea .menuarea .toggle.set_subreddit_sticky-button .option.error a {
+  color: #333;
+} 
+html:lang(nm) .commentarea .menuarea .toggle.set_contest_mode-button .option.error a,
+html:lang(nm) .commentarea .menuarea .toggle.set_subreddit_sticky-button .option.error a {
+  color: #CCC;
+} 
+
+/* No comments message */
+.commentarea #noresults.error {
+  padding: 0;
+  margin: 0 10px 5px;
+  background: transparent;
+  font-family: sans-serif;
+  color: #666;
+}
+
+/* Comment forms */
+.commentarea > .usertext {
+  margin-bottom: 20px;
+}
+.comment .usertext-edit .bottom-area {
+  margin-bottom: 10px;
+}
+
+/* Comment (and other) entry field */
+.usertext-edit textarea {
+  padding: 5px;
+  background: #F5F5F5;
+  border: 1px solid #EEE;
+  font-family: sans-serif;
+  color: #333;
+}
+html:lang(nm) .usertext-edit textarea {
+  background: #333;
+  border: 1px solid #333;
+  color: #CCC;
+}
+.usertext-edit textarea:active,
+.usertext-edit textarea:focus {
+  background: #F8F8F8;
+  border: 1px solid #EEE;
+  outline: none;
+}
+html:lang(nm) .usertext-edit textarea:active,
+html:lang(nm) .usertext-edit textarea:focus {
+  background: #393939;
+  border: 1px solid #393939;
+  outline: none;
+}
+
+
+/* Rediquette/Markdown help area and links */
+.commentarea > .usertext > .usertext-edit .bottom-area {
+  width: 510px;
+}
+.usertext-edit .bottom-area a {
+  font-family: sans-serif;
+  color: #2980B9;
+}
+html:lang(nm) .usertext-edit .bottom-area a {
+  color: #CCC;
+}
+
+/* Hiding child border when replying */
+.comment .usertext-edit {
+  position: relative;
+}
+.comment .usertext-edit:before {
+  content: "";
+  width: 1px;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -1px;
+  background: #FFF;
+}
+html:lang(nm) .comment .usertext-edit:before {
+  background: #191919;
+}
+
+/* Comment expando */
+.comment .tagline a.expand {
+  color: #888;
+}
+.comment .tagline a.expand:hover {
+  background-color: #F5F5F5;
+  color: #666;
+}
+html:lang(nm) .comment .tagline a.expand:hover {
+  background-color: #333;
+  color: #CCC;
+}
+
+/* Comment username */
+.comment .tagline a.author { /* comment author */
+  color: #999;
+}
+.comment .tagline a.submitter, /* post submitter */
+.comment .tagline a.submitter.author {
+  color: #3498DB;
+}
+.comment .tagline a.moderator, 
+.comment .tagline a.submitter.moderator { /* moderator */
+  color: #27AE60;
+}
+html:lang(nm) .comment .tagline a.moderator { /* moderator */
+  color: #3BC492;
+}
+
+/* Submitter/moderator identifier */
+.comment .tagline .userattrs {
+  color: #FFF;
+}
+html:lang(nm) .comment .tagline .userattrs {
+  color: #191919;
+}
+.comment .tagline .userattrs > a {
+  padding: 0 3px;
+}
+.comment .tagline .userattrs > a:first-of-type {
+  margin-left: -5px;
+}
+.comment .tagline .userattrs .submitter { /* submitter */
+  background: #3498DB;
+  color: #FFF;
+}
+html:lang(nm) .comment .tagline .userattrs .submitter {
+  background: #024E81;
+  color: #CCC;
+}
+.comment .tagline .userattrs .moderator { /* moderator */
+  background: #3BC492;
+  color: #FFF;
+}
+html:lang(nm) .comment .tagline .userattrs .moderator { /* moderator */
+  background: #0E8F60;
+  color: #CCC;
+}
+
+/* Comment body */
+.comment .md {
+  padding-left: 1px;
+  margin: 2px 0 0;
+  font-family: sans-serif;
+  line-height: 18px;
+  color: #333;
+}
+html:lang(nm) .comment .md {
+  color: #BBB;
+}
+.comment .md a {
+  color: #2980B9;
+}
+html:lang(nm) .comment .md a {
+  color: #EEE;
+}
+
+/* Comment options menu */
+.comment .flat-list.buttons li a {
+  padding: 0;
+  font-weight: normal;
+  color: #666;
+}
+.comment .flat-list.buttons li a:hover {
+  color: #2980B9;
+}
+html:lang(nm) .comment .flat-list.buttons li a:hover {
+  color: #AAA;
+}
+
+/* Child comments */
+.comment .child {
+  border-left: 1px dotted #DDD;
+}
+html:lang(nm) .comment .child {
+  border-color: #333;
+}
+
+/* Permalink styling */
+.single-page.comments-page .commentarea > .menuarea + form + .infobar { /* infobar */
+  padding: 10px;
+  margin: 15px 0 20px 10px;
+  border: none;
+  background: #F5F5F5;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #333;
+}
+html:lang(nm) .single-page.comments-page .commentarea > .menuarea + form + .infobar {
+  background: #222;
+  color: #888;
+}
+.single-page.comments-page .commentarea > .menuarea + form + .infobar a {
+  margin-top: 5px;
+  display: inline-block;
+  color: #2980B9;
+}
+html:lang(nm) .single-page.comments-page .commentarea > .menuarea + form + .infobar a {
+  color: #CCC;
+}
+.comment .usertext.border .usertext-body { /* comment highlighting */
+  /*background: #DEF;*/
+}
+html:lang(nm) .comment .usertext.border .usertext-body {
+  background: #292929;
+}
+
+/* Highlight latest comments (gold feature) */
+.gold-accent.comment-visits-box {
+  padding: 5px 7px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+  background: #369;
+  border: none;
+  border-radius: 0;
+  font-family: sans-serif;
+  color: #FFF;
+}
+html:lang(nm) .gold-accent.comment-visits-box {
+  background: #292929;
+  color: #CCC; 
+}
+.gold-accent.comment-visits-box .title {
+  font-weight: normal;
+}
+html:lang(nm) .new-comment .usertext-body {
+  padding-left: 3px;
+  margin: 0;
+  border: none;
+}
+html:lang(nm) .new-comment .usertext-body {
+  background-color: #292929;
+}
+
+
+
+/* Comment listing page
+------------------------------------- */
+.listing-page .comment {
+  padding: 10px 10px 1px 10px;
+  margin: 0 0 1px 0;
+  background: #FFF;
+}
+html:lang(nm) .listing-page .comment {
+  background: #191919;
+}
+.listing-page .comment .parent {
+  margin-bottom: 5px;
+  color: #666;
+}
+.listing-page .comment .parent a.title {
+  font-family: sans-serif;
+  color: #333;
+}
+html:lang(nm) .listing-page .comment .parent a.title {
+  color: #CCC;
+}
+.listing-page .comment .tagline {
+  color: #666;
+}
+.listing-page .comment .parent a.author,
+.listing-page .comment .parent a.subreddit {
+  color: #2980B9;
+}
+html:lang(nm) .listing-page .comment .parent a.author,
+html:lang(nm) .listing-page .comment .parent a.subreddit {
+  color: #AAA;
+}
+
+/* Submit page
+------------------------------------- */
+/* Submit to /r/IBO header */
+.submit-page > .content > form + h1 {
+  width: 510px;
+  height: 35px;
+  padding: 0 0 0 10px;
+  margin: 0;
+  background: #4AA3DF;
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 35px;
+  color: #aeaeae;
+  font-family: Lato, sans-serif;
+  position: absolute;
+  top: 215px;
+  left: 10px;
+  display: none;
+}
+.submit-page > .content > form + h1 a {
+  color: #FFF;
+}
+
+/* Link/Text menu */
+.submit-page > .content ul.tabmenu.formtab {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 246px;
+  left: 10px;
+}
+.submit-page > .content ul.tabmenu.formtab li:first-of-type {
+  margin-right: 0;
+}
+.submit-page > .content ul.tabmenu.formtab li a {
+  width: 240px;
+  height: 35px;
+  padding: 0 10px;
+  display: inline-block;
+  background: #FBFBFB;
+  border: none;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #CCC;
+}
+html:lang(nm) .submit-page > .content ul.tabmenu.formtab li a {
+  background: #161616;
+  color: #555;
+}
+.submit-page > .content ul.tabmenu.formtab li.selected a {
+  background: #FFF;
+  color: #333;
+}
+html:lang(nm) .submit-page > .content ul.tabmenu.formtab li.selected a {
+  background: #222;
+  color: #EEE;
+}
+
+/* Main content area */
+.submit-page > .content > .content {
+  margin: 0;
+  padding-top: 1px;
+}
+.submit-page > .content .formtabs-content {
+  width: 520px;
+  padding-top: 10px;
+  margin-top: 50px;
+  border-top: none;
+}
+.submit-page .formtabs-content .spacer {
+  margin: 0;
+}
+
+
+
+/* Field containers */
+.submit-page .formtabs-content .roundfield {
+  background: #FFF;
+  border-radius: 0;
+}
+html:lang(nm) .submit-page .formtabs-content .roundfield {
+  background: #161616;
+} 
+.submit-page .formtabs-content .roundfield#title-field {
+  padding-top: 10px;
+}
+
+/* Field titles */
+.submit-page .formtabs-content .roundfield .title {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+html:lang(nm) .submit-page .formtabs-content .roundfield .title {
+  color: #CCC;
+}
+
+/* Removes "(optional)" from text field */
+.submit-page .formtabs-content .roundfield .gray {
+  display: none;
+}
+
+/* Field input area */
+.submit-page .formtabs-content .roundfield textarea,
+.submit-page .formtabs-content .roundfield input {
+  padding: 5px;
+  background: #F5F5F5;
+  border-color: #EEE;
+  font-family: sans-serif;
+  color: #333;
+}
+html:lang(nm) .submit-page .formtabs-content .roundfield textarea,
+html:lang(nm) .submit-page .formtabs-content .roundfield input {
+  background: #333;
+  border-color: #333;
+  color: #CCC;
+}
+.submit-page .formtabs-content .roundfield textarea:active,
+.submit-page .formtabs-content .roundfield textarea:focus,
+.submit-page .formtabs-content .roundfield input:active,
+.submit-page .formtabs-content .roundfield input:focus {
+  outline: none;
+  background: #F8F8F8;
+  border: 1px solid #EEE;
+}
+html:lang(nm) .submit-page .formtabs-content .roundfield textarea:active,
+html:lang(nm) .submit-page .formtabs-content .roundfield textarea:focus,
+html:lang(nm) .submit-page .formtabs-content .roundfield input:active,
+html:lang(nm) .submit-page .formtabs-content .roundfield input:focus {
+  background: #393939;
+  border: 1px solid #393939;
+}
+
+/* Suggested title button */
+.submit-page #suggest-title button {
+  padding: 0;
+  background: transparent;
+  border: none;
+  font-family: sans-serif;
+  color: #2980B9;
+}
+html:lang(nm) .submit-page #suggest-title button {
+  color: #CCC;
+}
+html:lang(nm) .submit-page #suggest-title button:hover {
+  color: #EEE;
+}
+
+/* Removes suggested subs and gold box */
+.submit-page .formtabs-content .roundfield#reddit-field,
+.submit-page .gold-accent {
+  display: none;
+}
+
+/* Bottom rule notice */
+.submit-page .content.submit .info-notice {
+  width: 501px;
+  padding-left: 10px;
+  margin: 10px 0;
+  background: #F5F5F5;
+  border: none;
+  border-radius: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #777;
+}
+html:lang(nm) .submit-page .content.submit .info-notice {
+  background: #1B1B1B;
+  color: #666;
+}
+.submit-page .content.submit .info-notice:before { /* removes icon */
+  display: none;
+}
+.submit-page .content.submit .info-notice a { 
+  font-weight: normal;
+  text-decoration: none;
+  color: #2980B9;
+}
+html:lang(nm) .submit-page .content.submit .info-notice a { 
+  color: #AAA;
+}
+
+/* Submit button */
+.submit-page .btn[name="submit"] {
+  width: 255px;
+  height: 29px;
+  margin: 0;
+  background: #4AA3DF;
+  border: none;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #EEE;
+}
+html:lang(nm) .submit-page .btn[name="submit"] {
+  background: #3BC492;
+}
+.submit-page .btn[name="submit"]:hover {
+  background: #3A9CDC;
+}
+html:lang(nm) .submit-page .btn[name="submit"]:hover {
+  background: #37B587;
+}
+
+/* User flair
+------------------------------------- */
+.flair {
+  border: none;
+  border-radius: 0;
+  padding: 0 3px;
+}
+html:lang(nm) .flair {
+  background: #333;
+  color: #999;
+}
+/*.flair-vip {
+  background: #3A9CDC;
+  color: #FFF;
+}
+html:lang(nm) .flair-vip {
+  background: #2980B9;
+}*/
+
+
+
+/* Link flair
+------------------------------------- */
+.linkflairlabel {
+  max-width: none;
+  padding: 2px 4px; 
+  margin-right: 8px;
+  background: #3A9CDC;
+  border: none;
+  border-radius: 0;
+  vertical-align: text-top;
+  color: #FFF;
+}
+html:lang(nm) .linkflairlabel {
+  background: #2980B9;
+}
+
+
+
+/* Not logged in fixes
+------------------------------------- */
+/* User menu text and links */
+body:not(.loggedin) #header-bottom-right .user {
+  color: #AEAEAE;
+}
+html:lang(nm) body:not(.loggedin) #header-bottom-right .user {
+  color: #666;
+}
+body:not(.loggedin) #header-bottom-right .user a {
+  color: #EEE;
+}
+html:lang(nm) body:not(.loggedin) #header-bottom-right .user a {
+  color: #DDD;
+}
+
+/* Sidebar margin on search page */
+body:not(.loggedin).search-page .side {
+  margin-top: 15px;
+}
+
+/* Infobar */
+.submit-page .formtabs-content .infobar {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #F5F5F5;
+  border: none;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #777;
+}
+html:lang(nm) .submit-page .formtabs-content .infobar {
+  background-color: #1B1B1B;
+  color: #666;
+}
+
+/* Field containers */
+.submit-page .formtabs-content .roundfield {
+  background: #FFF;
+  border-radius: 0;
+}
+html:lang(nm) .submit-page .formtabs-content .roundfield {
+  background: #161616;
+} 
+.submit-page .formtabs-content .roundfield#title-field {
+  padding-top: 10px;
+}
+
+/* Field titles */
+.submit-page .formtabs-content .roundfield .title {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+html:lang(nm) .submit-page .formtabs-content .roundfield .title {
+  color: #CCC;
+}
+
+/* Removes "(optional)" from text field */
+.submit-page .formtabs-content .roundfield .gray {
+  display: none;
+}
+
+/* Field input area */
+.submit-page .formtabs-content .roundfield textarea,
+.submit-page .formtabs-content .roundfield input {
+  padding: 5px;
+  background: #F5F5F5;
+  border-color: #EEE;
+  font-family: sans-serif;
+  color: #333;
+}
+html:lang(nm) .submit-page .formtabs-content .roundfield textarea,
+html:lang(nm) .submit-page .formtabs-content .roundfield input {
+  background: #333;
+  border-color: #333;
+  color: #CCC;
+}
+.submit-page .formtabs-content .roundfield textarea:active,
+.submit-page .formtabs-content .roundfield textarea:focus,
+.submit-page .formtabs-content .roundfield input:active,
+.submit-page .formtabs-content .roundfield input:focus {
+  outline: none;
+  background: #F8F8F8;
+  border: 1px solid #EEE;
+}
+html:lang(nm) .submit-page .formtabs-content .roundfield textarea:active,
+html:lang(nm) .submit-page .formtabs-content .roundfield textarea:focus,
+html:lang(nm) .submit-page .formtabs-content .roundfield input:active,
+html:lang(nm) .submit-page .formtabs-content .roundfield input:focus {
+  background: #393939;
+  border: 1px solid #393939;
+}
+
+/* Suggested title button */
+.submit-page #suggest-title button {
+  padding: 0;
+  background: transparent;
+  border: none;
+  font-family: sans-serif;
+  color: #2980B9;
+}
+html:lang(nm) .submit-page #suggest-title button {
+  color: #CCC;
+}
+html:lang(nm) .submit-page #suggest-title button:hover {
+  color: #EEE;
+}
+
+/* Removes suggested subs and gold box */
+.submit-page .formtabs-content .roundfield#reddit-field,
+.submit-page .gold-accent {
+  display: none;
+}
+
+/* Bottom rule notice */
+.submit-page .content.submit .info-notice {
+  width: 501px;
+  padding-left: 10px;
+  margin: 10px 0;
+  background: #F5F5F5;
+  border: none;
+  border-radius: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #777;
+}
+html:lang(nm) .submit-page .content.submit .info-notice {
+  background: #1B1B1B;
+  color: #666;
+}
+.submit-page .content.submit .info-notice:before { /* removes icon */
+  display: none;
+}
+.submit-page .content.submit .info-notice a { 
+  font-weight: normal;
+  text-decoration: none;
+  color: #2980B9;
+}
+html:lang(nm) .submit-page .content.submit .info-notice a { 
+  color: #AAA;
+}
+
+/* Submit button */
+.submit-page .btn[name="submit"] {
+  width: 255px;
+  height: 29px;
+  margin: 0;
+  background: #4AA3DF;
+  border: none;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #EEE;
+}
+html:lang(nm) .submit-page .btn[name="submit"] {
+  background: #3BC492;
+}
+.submit-page .btn[name="submit"]:hover {
+  background: #3A9CDC;
+}
+html:lang(nm) .submit-page .btn[name="submit"]:hover {
+  background: #37B587;
+}
+
+
+
+/* Search page
+------------------------------------- */
+.search-page .side {
+  margin-top: 5px;
+}
+
+/* Search summary */
+.search-page .search-summary {
+  margin: 10px 10px 0 0;
+  font-family: sans-serif;
+  color: #AAA;
+}
+html:lang(nm) .search-page .search-summary {
+  color: #666;
+}
+.search-page .search-summary .result-count {
+  margin-bottom: 3px;
+}
+.search-page .search-summary a.pretty-button { /* yes/no buttons */
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-bottom: none;
+  border-radius: 0;
+  color: #2980B9;
+}
+html:lang(nm) .search-page .search-summary a.pretty-button {
+  color: #CCC;
+}
+.search-page .search-summary .debuginfo,
+.search-page .search-summary .debuginfo .icon {
+  padding: 0;
+}
+.search-page .search-summary .debuginfo .content {
+  margin: 0 0 0 5px;
+}
+
+/* Top container */
+.search-page .searchpane.raisedbox {
+  padding: 15px 10px 15px 96px;
+  margin: 0;
+  background-image: url(%%search-icon%%);
+  background-color: #FBFBFB;
+  border: none;
+}
+html:lang(nm) .search-page .searchpane.raisedbox {
+  background-color: #161616;
+}
+
+/* Previous search header */
+.search-page .searchpane.raisedbox > h4 {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  color: #333!important;
+  font-size: 12px;
+}
+html:lang(nm) .search-page .searchpane.raisedbox > h4 {
+  color: #999!important;
+}
+
+/* Search box */
+.search-page .searchpane.raisedbox #search {
+  display: inline-block;
+  position: relative;
+}
+.search-page .searchpane.raisedbox #search input[type="text"] {
+  width: 200px;
+  padding: 7px;
+  border: none;
+  font-size: 11px;
+}
+html:lang(nm) .search-page .searchpane.raisedbox #search input[type="text"] {
+  background: #222;
+  color: #CCC!important;
+}
+.search-page .searchpane.raisedbox #search input[type="text"]:active,
+.search-page .searchpane.raisedbox #search input[type="text"]:focus {
+  background: #FFF;
+  outline: none;
+}
+html:lang(nm) .search-page .searchpane.raisedbox #search input[type="text"]:active,
+html:lang(nm) .search-page .searchpane.raisedbox #search input[type="text"]:focus {
+  background: #292929;
+}
+
+/* Limit to sub */
+.search-page .searchpane.raisedbox #search label {
+  color: #666;
+}
+html:lang(nm) .search-page .searchpane.raisedbox #search label {
+  color: #999;
+}
+
+/* Expando search info */
+.search-page .searchpane.raisedbox #previoussearch #moresearchinfo {
+  border: none;
+  margin: 5px 0 10px;
+}
+.search-page .searchpane.raisedbox #moresearchinfo a,
+.search-page .searchpane.raisedbox #moresearchinfo + p a {
+  color: #2980B9;
+}
+html:lang(nm) .search-page .searchpane.raisedbox #moresearchinfo a,
+html:lang(nm) .search-page .searchpane.raisedbox #moresearchinfo + p a {
+  color: #CCC;
+}
+.search-page .searchpane.raisedbox #moresearchinfo > p {
+  margin: 0 0 10px;
+  color: #666;
+}
+html:lang(nm) .search-page .searchpane.raisedbox #moresearchinfo > p {
+  color: #888;
+}
+.search-page .searchpane.raisedbox #moresearchinfo dl {
+  color: #666;
+}
+
+/* Search button */
+.search-page .searchpane.raisedbox #moresearchinfo + p + input {
+  height: 27px;
+  margin-left: 220px;
+  position: absolute;
+  top: 0;
+  background: #F5F5F5;
+  border: none;
+  font-family: lato, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333;
+}
+html:lang(nm) .search-page .searchpane.raisedbox #moresearchinfo + p + input {
+  background: #222;
+  color: #CCC;
+}
+.search-page .searchpane.raisedbox #search input[type="text"]:active ~ input,
+.search-page .searchpane.raisedbox #search input[type="text"]:focus ~ input,
+.search-page .searchpane.raisedbox #moresearchinfo + p + input:hover {
+  background: #F5F5F5;
+}
+html:lang(nm) .search-page .searchpane.raisedbox #search input[type="text"]:active ~ input,
+html:lang(nm) .search-page .searchpane.raisedbox #search input[type="text"]:focus ~ input,
+html:lang(nm) .search-page .searchpane.raisedbox #moresearchinfo + p + input:hover {
+  background: #222;
+}
+
+/* Narrow search by sub box */
+.search-page .searchfacets {
+  padding: 15px 15px 20px;
+  margin: 1px 0 5px;
+  background: #FFF;
+  border: none;
+  box-shadow: none;
+}
+html:lang(nm) .search-page .searchfacets {
+  background: #191919;
+}
+.searchfacets .list {
+  margin: 0;
+}
+.searchfacets h4.title {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+html:lang(nm) .searchfacets h4.title {
+  color: #999;
+}
+.searchfacets .list li {
+  margin-right: 15px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.searchfacets .list li a {
+  color: #2980B9;
+}
+html:lang(nm) .searchfacets .list li a {
+  color: #CCC;
+}
+.searchfacets .list li .facet.count {
+  font-size: 11px;
+  color: #AAA;
+}
+
+/* Sub menu */
+.search-page > .content > .menuarea {
+  margin-top: 10px;
+}
+
+/* No results */
+.search-page #noresults.error {
+  padding: 10px;
+  margin: 0;
+  background: #FFF;
+  font-family: sans-serif;
+  color: #666;
+}
+html:lang(nm) .search-page #noresults.error {
+  background: #161616;
+}
+
+
+/* Related page
+------------------------------------- */
+.related-page .commentarea {
+  background: transparent;
+  padding: 0;
+} 
+.related-page .commentarea .panestack-title {
+  margin: 10px 0 1px;
+  padding: 10px;
+  background: #FBFBFB;
+}
+html:lang(nm) .related-page .commentarea .panestack-title {
+  background: #191919;
+}
+.related-page .commentarea .panestack-title .title {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #AAA;
+}
+html:lang(nm) .related-page .commentarea .panestack-title .title {
+  color: #999;
+}
+
+
+
+/* Tabmenu replacement
+------------------------------------- */
+.submit-page > .content:before,
+.search-page > .content:before,
+.create-reddit.fancy-settings:before,
+.flair-settings.fancy-settings:before,
+.stylesheet-customize-container:before {
+  display: block;
+  position: absolute;
+  top: 147px;
+  right: 0px;
+  left: 0px;
+  font-family: lato, sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #EEE;
+  z-index: 999;
+}
+.submit-page > .content:before {
+  content: "Submit to /r/IBO";
+}
+.search-page > .content:before {
+  content: "Search results";
+}
+.create-reddit.fancy-settings:before {
+  content: "Subreddit settings";
+}
+.flair-settings.fancy-settings:before {
+  content: "Flair settings";
+}
+.stylesheet-customize-container:before {
+  content: "Stylesheet";
+}
+
+
+
+/* Footer + Debug info
+------------------------------------- */
+.footer-parent {
+  padding: 50px 0;
+}
+
+.footer {
+  margin-bottom: 0;
+  border: none;
+}
+.footer .col { /* columns */
+  border-left: none;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.footer .col .flat-vert.title { /* column titles */
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #999;
+}
+html:lang(nm) .footer .col .flat-vert.title {
+  color: #CCC;
+}
+.footer .col a:not(.buygold) {
+  color: #555;
+}
+.footer .col a:not(.buygold):hover {
+  color: #2980B9;
+}
+html:lang(nm) .footer .col a:not(.buygold):hover {
+  color: #DDD;
+}
+.footer + .bottommenu a {
+  text-decoration: none; 
+  color: #2980B9;
+}
+html:lang(nm) .footer + .bottommenu a {
+  color: #DDD;
+}
+
+/* Debug info container */
+body > .debuginfo .icon {
+  color: #333;
+}
+html:lang(nm) body > .debuginfo .icon {
+  color: #EEE;
+}
+html:lang(nm) body > .debuginfo .content {
+  color: #AEAEAE;
+}
+
+/* Dank Memes */
+
+#r{
+  color: red;
+}
+
+#b{
+  color: blue;
+}
+
+#g{
+  color: green;
+}
