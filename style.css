@@ -1,6 +1,6 @@
 /* Announcement */
 body > .content:before {
-    content: 'Check out the wiki';
+    content: 'New links added to ibresources.github.io (30/09/18)';
     display: block;
     background: #fff;
     padding: 6px 12px;
@@ -30,20 +30,21 @@ body > .content:before {
 .side .md > p:nth-of-type(7) a { background: #A97EC3; color: #fff; position: relative; top: -114px; left: 158px;}
 .side .md > p:nth-of-type(8) a { background: #A4DFD0; color: #fff; position: relative; top: -152px; }
 .side .md > p:nth-of-type(9) a { background: #4AA3DF; color: #fff; position: relative; top: -154px; left: 30px; width: 208px!important; }
-.side .md > p:nth-of-type(10) a { transition: all 0.5s ease;}
+.side .md > p:nth-of-type(10) a {position: relative; top: -30px; left: 25px;transition: all 0.5s ease; text-indent: -9999px; }
 
 .side .md > p:nth-of-type(10) a:after {
     margin: auto; 
     position: absolute;
-    bottom: -5px;
-    left: 20%;
-    background-image: url(%%discord-logo-square%%);
-    background-size: 175px 175px;
+    top: -115px;
+    left: 45%;
+    background-image: url(%%Discord-logo%%);
+    background-size: 156px 50px;
     display: inline-block;
-    width: 175px; 
-    height: 175px;
+    width: 156px; 
+    height: 50px;
     content:"";
 }
+
 
 .side .titlebox .md>p:nth-of-type(1) a:hover { background-color: #CC333F; }
 .side .titlebox .md>p:nth-of-type(2) a:hover { background-color: #F9C123; } 
